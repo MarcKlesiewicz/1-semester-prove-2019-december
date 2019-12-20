@@ -7,13 +7,15 @@ public class Quickmaths {
         return ((a + b) / 2);
     }
 
-    public static int sum (int a, int b){
+    public static int sum(int a, int b) {
         return a + b;
     }
-    //public static void start(){
+
+    public static void start() {
 
 
-        }
+    }
+}
 
 
 
