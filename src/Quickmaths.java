@@ -1,11 +1,27 @@
-/**
- * Developed by András Ács (acsandras@gmail.com)
- * Zealand / www.zealand.dk
- * Licensed under the MIT License
- * 13/12/2019
- */
+
 
 public class Quickmaths {
 
 
-}
+    public static int gennemsnit(int a, int b) {
+        return ((a + b) / 2);
+    }
+
+    public static int sum (int a, int b){
+        return a + b;
+    }
+    //public static void start(){
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+

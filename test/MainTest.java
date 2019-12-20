@@ -2,7 +2,7 @@ import junit.framework.TestCase;
 
 public class MainTest extends TestCase {
 
-
+//Opgave 2
     public void testHelloAndras() {
 
         Main m = new Main();
