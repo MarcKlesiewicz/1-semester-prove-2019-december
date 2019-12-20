@@ -9,26 +9,29 @@ public class Person {
     String vej = "Femøvej";
     String husnummer = "3B";
     String nationalitet = "Dansk";
-    String fritidsStringeresser = "Snitning, LOL, strikke";
-    String smarthomeDevices =  "Xbox, 3 Smartlamper, Køleskab m.m.";
+    String fritidsStringeresser[] = {"Snitning", "LOL", "strikke"};
+    String smarthomeDevices[] = { "Xbox", "3 Smartlamper", "Køleskab m.m."};
     double hojde = 1.56;
     double vaegt = 76;
     double karaktergennemsnit = 5.33;
-    int eksamensKarakterer = 7, 12, -3, 4, 2, 10;
-    String opdateretDato; // Sun Jan 08 00:00:00 CET 1978
+    int eksamensKarakterer[] = {7, 12, -3, 4, 2, 10};
+    String opdateretDato = "Sun Jan 08 00:00:00 CET 1978";
 
     // TODO Vis eksempler på typecasting
     @Override
     public String toString() {
-        return "Navn: " + navn + "By" + by;
+        return "Navn: " + navn + "\n" + "By: " + by + "\n" + "Alder: " + alder + "\n" + "Højde: " + hojde + "cm" + "\n" + "Nationalitet: " + nationalitet;
     }
 
     public static void main(String[] args) {
 
         Person person = new Person();
-        person.navn = "Test Testesen";
-        person.by = "Næstved";
-        System.out.println();
+        person.navn = "Marc" ;
+        person.by = "Nykøbing Falster";
+        person.alder = 24;
+        person.hojde = 188;
+        person.nationalitet = "Dansk";
+        System.out.println(person);
     }
 
 }

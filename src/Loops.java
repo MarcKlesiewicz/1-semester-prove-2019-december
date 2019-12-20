@@ -33,14 +33,14 @@ public class Loops {
      * Viser en liste med brugere i konsollen i omvendt rækkefølge
      */
     public void printBrugereReverseArr() {
-        String reverseBrugere [getBrugere()];
+        String reverseBrugere[] = getBrugere();
             System.out.println(Arrays.toString(getBrugere()));
 
         }
 
 
 
-    }
+
 //opgave 4.a
     public void waitingFor0() {
         Scanner input = new Scanner(System.in);
