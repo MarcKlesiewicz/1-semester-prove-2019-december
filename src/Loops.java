@@ -1,9 +1,6 @@
-/**
- * Developed by András Ács (acsandras@gmail.com)
- * Zealand / www.zealand.dk
- * Licensed under the MIT License
- * 17/12/2019
- */
+import java.io.Console;
+import java.util.Arrays;
+import java.util.Scanner;
 
 public class Loops {
 
@@ -22,26 +19,39 @@ public class Loops {
         l.waitingFor0();
     }
 
-    /**
-     * Viser en liste med brugere i konsollen
-     */
+//Opgave 4.b
     public void printBrugereArr() {
+        for (int i = 0; i < 1 ; i++){
+            System.out.println(Arrays.toString(getBrugere()));
 
-        // TODO Din kode her
+        }
+
     }
+
 
     /**
      * Viser en liste med brugere i konsollen i omvendt rækkefølge
      */
     public void printBrugereReverseArr() {
+        String reverseBrugere [getBrugere()];
+            System.out.println(Arrays.toString(getBrugere()));
 
-        // TODO Din kode her
+        }
+
+
 
     }
-
+//opgave 4.a
     public void waitingFor0() {
+        Scanner input = new Scanner(System.in);
 
-        // TODO Din kode her
+        System.out.println("Venter på 0! Skriv et tal...");
+        int tal = input.nextInt();
+        while (tal != 0){
+            System.out.println("Venter på 0! Skriv et tal...");
+            tal = input.nextInt();
+        }
+        System.out.println("Du har tastet 0. Så er det slut!");
  
     }
 }
