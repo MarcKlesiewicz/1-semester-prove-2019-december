@@ -17,7 +17,7 @@ public class Person {
     int eksamensKarakterer[] = {7, 12, -3, 4, 2, 10};
     String opdateretDato = "Sun Jan 08 00:00:00 CET 1978";
 
-    // TODO Vis eksempler på typecasting
+    //eksempler på typecasting
     @Override
     public String toString() {
         return "Navn: " + navn + "\n" + "By: " + by + "\n" + "Alder: " + alder + "\n" + "Højde: " + hojde + "cm" + "\n" + "Nationalitet: " + nationalitet;
