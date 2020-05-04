@@ -15,6 +15,9 @@ public class lommeRegner {
 
         System.out.println("Gennemsnit:" + Quickmaths.gennemsnit(a, b));
 
+        Quickmaths.start();
+
+
     }
 
 
